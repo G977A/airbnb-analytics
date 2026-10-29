@@ -6,5 +6,11 @@ dist/
 wheels/
 *.egg-info
 
+# Ignore all raw and processed data files
+data/raw/**/*.csv.gz
+data/raw/**/*.csv
+data/raw/**/*.parquet
+
+
 # Virtual environments
 .venv
